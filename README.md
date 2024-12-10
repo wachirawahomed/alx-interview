@@ -1,35 +1,22 @@
-# alx-interview
+# ALX Interview
 
-## 0x00. Pascal's Triangle
+This repository contains solutions to interview preparation tasks and algorithmic challenges. These tasks are designed to enhance problem-solving skills and understanding of various programming concepts. All tasks are implemented in Python unless otherwise specified.
 
-This project focuses on implementing Pascal's Triangle in Python as part of the **ALX Interview Preparation** series. The task involves generating a list of lists that represents Pascal's Triangle up to a given number of rows.
+## Directory Structure
 
-### Learning Objectives
+Each task is organized in a separate directory with its own `README.md` file. Below is an overview of the directories:
 
-By completing this project, you will learn and reinforce concepts such as:
-- Python list operations, including list comprehensions.
-- Functions, loops, and conditional statements.
-- Efficient algorithms for mathematical computations.
-- Indexing and slicing lists.
-- Returning structured data as output from functions.
+### 0x00-pascal_triangle
 
-### Requirements
-
-- All files will be interpreted/compiled on Ubuntu 20.04 LTS using Python 3.8.x.
-- Follow Python best practices (e.g., PEP 8).
-- Code must be executable without errors or exceptions for valid inputs.
-- The `pascal_triangle` function must be implemented in a file named `0-pascal_triangle.py`.
-
-### Function Prototype
-
-```python
-def pascal_triangle(n):
-    """
-    Generate Pascal's Triangle up to the nth row.
-
-    Args:
-        n (int): Number of rows of Pascal's Triangle to generate.
-
-    Returns:
-        List[List[int]]: A list of lists representing Pascal's Triangle.
-    """
+- **Description**: This task involves implementing Pascal's Triangle in Python. The goal is to generate a list of lists representing Pascal's Triangle up to a given number of rows.
+- **Files**:
+  - `0-pascal_triangle.py`: Contains the implementation of the `pascal_triangle` function.
+  - `0-main.py`: Test script for the `pascal_triangle` function.
+  - `README.md`: Documentation for the `0x00-pascal_triangle` task.
+- **Example Output**:
+  ```plaintext
+  [1]
+  [1,1]
+  [1,2,1]
+  [1,3,3,1]
+  [1,4,6,4,1]
